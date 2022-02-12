@@ -1,0 +1,19 @@
+#EXTM3U
+#EXTINF:-1 ,Yoga Radio
+http://play.yogaradio.org.ua:8000/YOGAradio
+#EXTINF:-1 ,1.FM Destination: SPA
+http://sc-spa.1.fm:6002
+#EXTINF:-1 ,Relax FM UA - International
+http://online-radiorelax.tavrmedia.ua/RadioRelax_Int
+#EXTINF:-1 ,Relax FM UA - International
+http://online-radiorelax.tavrmedia.ua/RadioRelax_Int
+#EXTINF:-1 ,San FM Relax
+http://sanfm.ru:8000/relax
+#EXTINF:-1 ,Зайцев FM Relax
+http://zaycevfm.cdnvideo.ru/ZaycevFM_relax_256.mp3
+#EXTINF:-1 ,Радио "За облаками" Релакс
+http://195.88.63.114:8000/relax
+#EXTINF:-1 ,Релакс FM (спутник)
+http://46.160.36.66:8000/relax_fm.mp3
+#EXTINF:-1 ,Релакс ФМ (спутник)
+http://81.89.113.62:8181/relaxfm
