@@ -26,7 +26,7 @@ mkdir ~/.config/yt-dlp/ && cp ./yt-dlp_config ~/.config/yt-dlp/config &&
 
 # копирую плейлисты радио и скрипты запуска в папку Музыка
 cp ./RadioInternet.m3u ~/Music/ &&
-cp ./RadioInternet ~/Music/ &&
+cp ./RadioInternet.sh ~/Music/ &&
 cp ./RadioMonteCarlo.sh ~/Music/ &&
 cp ./RadioRelax.sh ~/Music/ &&
 
@@ -36,6 +36,11 @@ cp ./macos_remove_app.sh ~/Scrypts/
 cp ./screenshot_clear.sh ~/Scrypts/
 cp ./ssh-add_userv-X99_filesremote.sh ~/Scrypts/
 cp ./userv-X99.sh ~/Scrypts/
+
+# создаю ярлыки скриптам на рабочем столе
+ln -Ffhinsv ~/Music/RadioMonteCarlo.sh ~/Desktop/RadioMonteCarlo                  
+
+
 
 # удаляю папку со скаченным репозиторием
 rm -rf ~/Downloads/Scrypts_MacOS/
