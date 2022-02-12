@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-mplayer -playlist ~/music/RadioInternet.m3u
