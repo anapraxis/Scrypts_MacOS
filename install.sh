@@ -48,6 +48,8 @@ ln -Ffhinsv ~/Scrypts/dcg.sh ~/Desktop/для_Docker &&
 ln -Ffhinsv ~/Scrypts/screenshot_clear.sh ~/Desktop/скриншоты_в_Nextcloud &&
 ln -Ffhinsv ~/Scrypts/ssh-add_userv-X99_filesremote.sh ~/Desktop/для_filesremote &&
 ln -Ffhinsv ~/Scrypts/userv-X99.sh ~/Desktop/SSH_к_userv-X99 &&
+ln -Ffhinsv ~/cloud/start_cloud_webdav_nextcloud_apostolov_pro.sh ~/Desktop/подключить_мой_nextcloud &&
+ln -Ffhinsv ~/cloud/umount_cloud_webdav_nextcloud_apostolov_pro.sh ~/Desktop/отключить_мой_nextcloud &&
 
 # удаляю папку со скаченным репозиторием
 rm -rf ~/Downloads/Scrypts_MacOS/
