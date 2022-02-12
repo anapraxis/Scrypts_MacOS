@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-mplayer -playlist ~/music/RadioMonteCarlo.m3u
