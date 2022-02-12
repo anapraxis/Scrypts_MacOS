@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-mplayer -playlist ~/music/RadioRelax.m3u
