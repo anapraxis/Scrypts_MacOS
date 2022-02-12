@@ -10,7 +10,7 @@ git clone https://github.com/anapraxis/Scrypts_MacOS.git &&
 cd Scrypts_MacOS &&
 
 # делаю скрипты исполняемыми
-chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh &&
+chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh &&
 
 # запускаю скрипт установки приложений
 ./macos_install_app.sh &&
