@@ -26,21 +26,28 @@ mkdir ~/.config/yt-dlp/ && cp ./yt-dlp_config ~/.config/yt-dlp/config &&
 
 # копирую плейлисты радио и скрипты запуска в папку Музыка
 cp ./RadioInternet.m3u ~/Music/ &&
+cp ./RadioMonteCarlo.m3u ~/Music/ &&
+cp ./RadioRelax.m3u ~/Music/ &&
 cp ./RadioInternet.sh ~/Music/ &&
 cp ./RadioMonteCarlo.sh ~/Music/ &&
 cp ./RadioRelax.sh ~/Music/ &&
 
 # копирую скрипты для докера, сортировка скриншотов, ssh доступ к серверу в папку Scrypts
-cp ./dcg.sh ~/Scrypts/
-cp ./macos_remove_app.sh ~/Scrypts/
-cp ./screenshot_clear.sh ~/Scrypts/
-cp ./ssh-add_userv-X99_filesremote.sh ~/Scrypts/
-cp ./userv-X99.sh ~/Scrypts/
+cp ./dcg.sh ~/Scrypts/ &&
+cp ./macos_remove_app.sh ~/Scrypts/ &&
+cp ./screenshot_clear.sh ~/Scrypts/ &&
+cp ./ssh-add_userv-X99_filesremote.sh ~/Scrypts/ &&
+cp ./userv-X99.sh ~/Scrypts/ &&
 
 # создаю ярлыки скриптам на рабочем столе
-ln -Ffhinsv ~/Music/RadioMonteCarlo.sh ~/Desktop/RadioMonteCarlo                  
-
-
+ln -Ffhinsv ~/Music/RadioInternet.sh ~/Desktop/RadioInternet &&
+ln -Ffhinsv ~/Music/RadioMonteCarlo.sh ~/Desktop/RadioMonteCarlo &&
+ln -Ffhinsv ~/Music/RadioMonteCarlo.sh ~/Desktop/RadioMonteCarlo &&
+ln -Ffhinsv ~/Music/RadioRelax.sh ~/Desktop/RadioRelax &&
+ln -Ffhinsv ~/Scrypts/dcg.sh ~/Desktop/для_Docker &&
+ln -Ffhinsv ~/Scrypts/screenshot_clear.sh ~/Desktop/скриншоты_в_Nextcloud &&
+ln -Ffhinsv ~/Scrypts/ssh-add_userv-X99_filesremote.sh ~/Desktop/для_filesremote &&
+ln -Ffhinsv ~/Scrypts/userv-X99.sh ~/Desktop/SSH_к_userv-X99 &&
 
 # удаляю папку со скаченным репозиторием
 rm -rf ~/Downloads/Scrypts_MacOS/
