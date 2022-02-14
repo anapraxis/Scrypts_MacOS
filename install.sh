@@ -10,7 +10,7 @@
 #cd Scrypts_MacOS &&
 
 # делаю скрипты исполняемыми
-chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh &&
+chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh chmod_ssh_key.sh &&
 
 # запускаю скрипт установки приложений
 #./macos_install_app.sh &&
@@ -40,10 +40,7 @@ cp ./macos_remove_app.sh ~/Scrypts/ &&
 cp ./screenshot_clear.sh ~/Scrypts/ &&
 cp ./ssh-add_userv-X99_filesremote.sh ~/Scrypts/ &&
 cp ./userv-X99.sh ~/Scrypts/ &&
-
-# выставляю права для ssh ключей
-chmod 700 /Volumes/Data/Nextcloud/_key/ssh
-chmod 600 /Volumes/Data/Nextcloud/_key/ssh//2222_root@192.168.1.2/id_rsa
+cp ./chmod_ssh_key.sh ~/Scrypts/ &&
 
 # создаю ярлыки скриптам на рабочем столе
 ln -Ffhinsv ~/Music/RadioInternet.sh ~/Desktop/RadioInternet &&
