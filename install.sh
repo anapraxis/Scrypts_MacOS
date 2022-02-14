@@ -1,22 +1,22 @@
 #!/usr/bin/env bash
 
 # перехожу в загрузки
-cd ~/Downloads/ &&
+#cd ~/Downloads/ &&
 
 # клонирую свой репозиторий в загрузки
-git clone https://github.com/anapraxis/Scrypts_MacOS.git &&
+#git clone https://github.com/anapraxis/Scrypts_MacOS.git &&
 
 # перехожу в папку загруженного репозитория
-cd Scrypts_MacOS &&
+#cd Scrypts_MacOS &&
 
 # делаю скрипты исполняемыми
 chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh &&
 
 # запускаю скрипт установки приложений
-./macos_install_app.sh &&
+#./macos_install_app.sh &&
 
 # создаю директорию конфига yt-dlp и копирую туда конфиг
-mkdir ~/.config/yt-dlp/ && cp ./yt-dlp_config ~/.config/yt-dlp/config &&
+#mkdir ~/.config/yt-dlp/ && cp ./yt-dlp_config ~/.config/yt-dlp/config &&
 
 # разархивирую в папку пользователя скрипты на монтирование облаков
 7z e ~/Downloads/Scrypts_MacOS/cloud.zip -ocloud/ && mv ~/Downloads/Scrypts_MacOS/cloud ~/Scrypts &&
