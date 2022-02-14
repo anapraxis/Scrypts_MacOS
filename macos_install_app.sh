@@ -178,6 +178,9 @@ echo "Устанавливаю Текстовые и табличные реда
 # Rambox Агрегатор мессенджеров
 brew install rambox
 
+# ferdi Агрегатор мессенджеров
+brew install --cask ferdi
+
 # Zoom Мессенджер
 brew install zoom
 
