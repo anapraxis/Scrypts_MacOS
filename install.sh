@@ -41,6 +41,10 @@ cp ./screenshot_clear.sh ~/Scrypts/ &&
 cp ./ssh-add_userv-X99_filesremote.sh ~/Scrypts/ &&
 cp ./userv-X99.sh ~/Scrypts/ &&
 
+# выставляю права для ssh ключей
+chmod 700 /Volumes/Data/Nextcloud/_key/ssh
+chmod 600 /Volumes/Data/Nextcloud/_key/ssh//2222_root@192.168.1.2/id_rsa
+
 # создаю ярлыки скриптам на рабочем столе
 ln -Ffhinsv ~/Music/RadioInternet.sh ~/Desktop/RadioInternet &&
 ln -Ffhinsv ~/Music/RadioMonteCarlo.sh ~/Desktop/RadioMonteCarlo &&
