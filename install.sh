@@ -19,7 +19,8 @@ chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteC
 #mkdir ~/.config/yt-dlp/ && cp ./yt-dlp_config ~/.config/yt-dlp/config &&
 
 # разархивирую в папку пользователя скрипты на монтирование облаков
-7z e ~/Downloads/Scrypts_MacOS/cloud.zip -ocloud/ && mv ~/Downloads/Scrypts_MacOS/cloud ~/Scrypts &&
+7z e ~/Downloads/Scrypts_MacOS/cloud.zip -ocloud/ && 
+mv ~/Downloads/Scrypts_MacOS/cloud ~/cloud && 
 
 # создаю директорию для монтирования облаков и делаю скрипты монтирования исполняемыми
 ./mkdir_cloud.sh &&
@@ -33,6 +34,7 @@ cp ./RadioMonteCarlo.sh ~/Music/ &&
 cp ./RadioRelax.sh ~/Music/ &&
 
 # копирую скрипты для докера, сортировка скриншотов, ssh доступ к серверу в папку Scrypts
+mkdir ~/Scrypts && 
 cp ./dcg.sh ~/Scrypts/ &&
 cp ./macos_remove_app.sh ~/Scrypts/ &&
 cp ./screenshot_clear.sh ~/Scrypts/ &&
