@@ -353,6 +353,9 @@ brew install xquartz
 # fluid сайт в приложение
 brew install fluid
 
+# calibre управление библиотекой книг
+brew install calibre
+
 softwareupdate --all --install --force
 
 brew upgrade --formula
