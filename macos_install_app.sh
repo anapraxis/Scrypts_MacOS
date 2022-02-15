@@ -266,11 +266,10 @@ brew install kap
 # Фото редакторы #
 ###############################################################################
 echo "Устанавливаю Фото редакторы..."
-# cli
+# gui
 # exifrenamer Чтение и удаление метаданных
 brew install exifrenamer
 
-# gui
 # Darktable Обработка RAW
 brew install darktable
 
