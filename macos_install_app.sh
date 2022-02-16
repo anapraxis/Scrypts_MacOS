@@ -355,6 +355,12 @@ brew install fluid
 # calibre управление библиотекой книг
 brew install calibre
 
+# mac_czkawka_gui 
+brew install gtk+3 adwaita-icon-theme ffmpeg librsvg && 
+cd /Users/mihailanapraksis/Scrypts/ && 
+wget https://github.com/qarmin/czkawka/releases/download/4.0.0/mac_czkawka_gui && 
+chmod +x mac_czkawka_gui 
+
 softwareupdate --all --install --force
 
 brew upgrade --formula
