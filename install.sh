@@ -53,6 +53,7 @@ ln -Ffhinsv ~/Scrypts/ssh-add_userv-X99_filesremote.sh ~/Desktop/для_filesrem
 ln -Ffhinsv ~/Scrypts/userv-X99.sh ~/Desktop/SSH_к_userv-X99 &&
 ln -Ffhinsv ~/cloud/start_cloud_webdav_nextcloud_apostolov_pro.sh ~/Desktop/подключить_мой_nextcloud &&
 ln -Ffhinsv ~/cloud/umount_cloud_webdav_nextcloud_apostolov_pro.sh ~/Desktop/отключить_мой_nextcloud &&
+ln -Ffhinsv ~/Scrypts/mac_czkawka_gui  ~/Desktop/mac_czkawka_gui
 
 # удаляю папку со скаченным репозиторием
 rm -rf ~/Downloads/Scrypts_MacOS/
