@@ -361,6 +361,12 @@ cd /Users/mihailanapraksis/Scrypts/ &&
 wget https://github.com/qarmin/czkawka/releases/download/4.0.0/mac_czkawka_gui && 
 chmod +x mac_czkawka_gui 
 
+# sshfs монтирование удаленной файловой системы по ssh
+cd Download
+wget https://github.com/osxfuse/sshfs/releases/download/osxfuse-sshfs-2.5.0/sshfs-2.5.0.pkg
+installer -pkg sshfs-2.5.0.pkg -target CurrentUserHomeDirectory
+cd
+
 softwareupdate --all --install --force
 
 brew upgrade --formula
