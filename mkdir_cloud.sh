@@ -21,6 +21,7 @@ mkdir -p /Volumes/Data/clouds/onedrive/5TB_onedrive_cmannino1
 mkdir -p /Volumes/Data/clouds/onedrive/5TB_onedrive_akuby333
 mkdir -p /Volumes/Data/clouds/onedrive/5TB_onedrive_mikhail2
 mkdir -p /Volumes/Data/clouds/nextcloud/anapraxis
+mkdir /Volumes/Data/userv_x99
 chmod +x ~/cloud/start_cloud_5GB_onedrive_nost79.sh
 chmod +x ~/cloud/start_cloud_5TB_onedrive_akuby333.sh
 chmod +x ~/cloud/start_cloud_5TB_onedrive_cmannino1.sh
