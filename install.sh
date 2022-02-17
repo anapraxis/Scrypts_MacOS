@@ -10,7 +10,7 @@
 #cd Scrypts_MacOS &&
 
 # делаю скрипты исполняемыми
-chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh chmod_ssh_key.sh &&
+chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh chmod_ssh_key.sh sshfs_userv_x99.sh &&
 
 # запускаю скрипт установки приложений
 #./macos_install_app.sh &&
@@ -41,6 +41,7 @@ cp ./screenshot_clear.sh ~/Scrypts/ &&
 cp ./ssh-add_userv-X99_filesremote.sh ~/Scrypts/ &&
 cp ./userv-X99.sh ~/Scrypts/ &&
 cp ./chmod_ssh_key.sh ~/Scrypts/ &&
+cp ./sshfs_userv_x99.sh ~/Scrypts/ &&
 
 # создаю ярлыки скриптам на рабочем столе
 ln -Ffhinsv ~/Music/RadioInternet.sh ~/Desktop/RadioInternet &&
@@ -53,7 +54,8 @@ ln -Ffhinsv ~/Scrypts/ssh-add_userv-X99_filesremote.sh ~/Desktop/для_filesrem
 ln -Ffhinsv ~/Scrypts/userv-X99.sh ~/Desktop/SSH_к_userv-X99 &&
 ln -Ffhinsv ~/cloud/start_cloud_webdav_nextcloud_apostolov_pro.sh ~/Desktop/подключить_мой_nextcloud &&
 ln -Ffhinsv ~/cloud/umount_cloud_webdav_nextcloud_apostolov_pro.sh ~/Desktop/отключить_мой_nextcloud &&
-ln -Ffhinsv ~/Scrypts/mac_czkawka_gui  ~/Desktop/mac_czkawka_gui
+ln -Ffhinsv ~/Scrypts/mac_czkawka_gui ~/Desktop/mac_czkawka_gui
+ln -Ffhinsv ~/Scrypts/sshfs_userv_x99.sh ~/Desktop/sshfs_userv_x99
 
 # удаляю папку со скаченным репозиторием
 rm -rf ~/Downloads/Scrypts_MacOS/
