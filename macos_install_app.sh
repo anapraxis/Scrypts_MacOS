@@ -367,6 +367,9 @@ wget https://github.com/osxfuse/sshfs/releases/download/osxfuse-sshfs-2.5.0/sshf
 installer -pkg sshfs-2.5.0.pkg -target CurrentUserHomeDirectory
 cd
 
+# информация о системе
+brew install neofetch
+
 softwareupdate --all --install --force
 
 brew upgrade --formula
