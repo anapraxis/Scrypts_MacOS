@@ -382,6 +382,9 @@ cd
 # информация о системе
 brew install neofetch
 
+# freecad 3D моделирование
+brew install freecad
+
 softwareupdate --all --install --force
 
 brew upgrade --formula
