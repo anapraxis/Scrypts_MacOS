@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Пропатчил Firfox и сделал LibreFox
 wget -P ~/temp/Librefox/ https://github.com/intika/Librefox/releases/download/Librefox-v2.1-v64.0.0/Librefox-2.1-Firefox-Mac-60.4.0.zip
 cd ~/temp/Librefox/
