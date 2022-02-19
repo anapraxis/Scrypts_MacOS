@@ -142,9 +142,7 @@ open Open\ Gatekeeper\ friendly
 cd
 
 # Bartender_3_v3.1.23_TNT.dmg
-sudo hdiutil attach /Volumes/Data/Nextcloud/soft/MacOS_soft_install/Bartender_3_v3.1.23_TNT.dmg
-cd /Volumes/Bartender\ 3\ 3.1.23
-open Open\ Gatekeeper\ friendly
+sudo hdiutil attach /Volumes/Data/Nextcloud/soft/MacOS_soft_install/Bartender_4.1.35b_HCiSO.dmg
 cd
 
 # DMG_Canvas_3.0.14_TNT.dmg
