@@ -160,5 +160,13 @@ cd
 # Hazel_5.0.7_U2B_MM.dmg
 sudo hdiutil attach /Volumes/Data/Nextcloud/soft/MacOS_soft_install/Hazel_5.0.7_U2B_MM.dmg
 
+# XnViewMP-mac.dmg
+sudo hdiutil attach /Volumes/Data/Nextcloud/soft/MacOS_soft_install/XnViewMP-mac.dmg
+cd /Volumes/XnViewMP
+sudo cp -rf XnViewMP.app  /Applications
+cd
+sudo hdiutil detach /Volumes/XnViewMP
+
+
 # MIPKO
 # FreeCAD
