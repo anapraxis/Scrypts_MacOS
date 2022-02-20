@@ -352,6 +352,9 @@ brew install htop
 # wget консольный загрузчик
 brew install wget
 
+# Xtreme Download Manager мощный инструмент для увеличения скорости загрузки до 500%
+brew install xdm
+
 # zoc ssh менеджер
 brew install zoc
 
