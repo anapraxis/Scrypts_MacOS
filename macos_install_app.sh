@@ -385,6 +385,9 @@ brew install neofetch
 # freecad 3D моделирование
 brew install freecad
 
+# OnlySwitch одна утилита для управления всеми функциями macOS
+brew install only-switch
+
 softwareupdate --all --install --force
 
 brew upgrade --formula
