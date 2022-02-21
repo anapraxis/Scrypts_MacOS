@@ -67,6 +67,15 @@ installer -pkg VolumeLicense.pkg -target CurrentUserHomeDirectory
 cd
 sudo hdiutil detach /Volumes/Microsoft\ Office\ for\ Mac\ 16.34
 
+# kate
+cd ~/Downloads &&
+wget --no-check-certificate https://binary-factory.kde.org/view/MacOS/job/Kate_Release_macos/lastSuccessfulBuild/artifact/kate-21.12.2-1498-macos-64-clang.dmg &&
+sudo hdiutil attach kate-21.12.2-1498-macos-64-clang.dmg &&
+cd /Volumes/kate-21.12.2-1498-macos-64-clang.dmg &&
+sudo cp -rf kate.app /Applications &&
+cd &&
+sudo hdiutil detach /Volumes/kate-21.12.2-1498-macos-64-clang.dmg
+
 # Unite_3.0.1__TNT_.dmg
 sudo hdiutil attach /Volumes/Data/Nextcloud/soft/MacOS_soft_install/Unite_3.0.1__TNT_.dmg
 cd /Volumes/Unite\ 3.0.1
