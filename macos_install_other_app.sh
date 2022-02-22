@@ -176,6 +176,14 @@ sudo cp -rf XnViewMP.app  /Applications
 cd
 sudo hdiutil detach /Volumes/XnViewMP
 
+# Fawkes меняет пиксели на фотографии, чтобы алгоритмы не смогли распознать лицо а человек ничего не заметил
+cd ~/Downloads &&
+wget --no-check-certificate https://mirror.cs.uchicago.edu/fawkes/files/1.0/Fawkes-1.0.dmg &&
+sudo hdiutil attach Fawkes-1.0.dmg &&
+cd /Volumes/Fawkes &&
+sudo cp -rf Fawkes.app /Applications &&
+cd &&
+sudo hdiutil detach /Volumes/Fawkes
 
 # MIPKO
 # FreeCAD
