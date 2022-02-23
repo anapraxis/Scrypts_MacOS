@@ -32,16 +32,12 @@ cp /Volumes/Data/Nextcloud/Backup/wallets/AVN_wallet.dat /Users/mihailanapraksis
 cd
 
 # Камтасия
-sudo hdiutil attach /Volumes/Data/Nextcloud/soft/MacOS_soft_install/TechSmith\ Camtasia\ 2019.0.9.dmg
-cd /Volumes/TechSmith\ Camtasia\ 2019.0.9
-sudo hdiutil attach /Volumes/TechSmith\ Camtasia\ 2019.0.9/camtasia.dmg
-cd /Volumes/Camtasia
-sudo cp -rf Camtasia 2019.app /Applications
+sudo hdiutil attach /Volumes/Data/Nextcloud/soft/MacOS_soft_install/Camtasia_2021.dmg
+cd /Volumes/Camtasia\ 2021\ 2021.0.8
+open Open\ Gatekeeper\ friendly
 cd
-open /Volumes/TechSmith\ Camtasia\ 2019.0.9/readme_Camtasia.txt
-sudo hdiutil detach /Volumes/Camtasia
-sudo hdiutil detach /Volumes/TechSmith\ Camtasia\ 2019.0.9
-open /Applications/Camtasia\ 2019.app
+sudo hdiutil detach /Volumes/Camtasia\ 2021\ 2021.0.8
+open /Applications/Camtasia\ 2021.app
 
 # iStat_Menus_6.40
 sudo hdiutil attach /Volumes/Data/Nextcloud/soft/MacOS_soft_install/iStat_Menus_6.40.dmg
