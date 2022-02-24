@@ -10,7 +10,7 @@
 #cd Scrypts_MacOS &&
 
 # делаю скрипты исполняемыми
-chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh chmod_ssh_key.sh sshfs_userv_x99.sh umount_userv_x99.sh macos_install_other_app.sh &&
+chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh chmod_ssh_key.sh sshfs_userv_x99.sh umount_userv_x99.sh macos_install_other_app.sh macos_update_cleanup.sh &&
 
 # запускаю скрипт установки приложений
 #./macos_install_app.sh &&
@@ -44,6 +44,7 @@ cp ./chmod_ssh_key.sh ~/Scrypts/ &&
 cp ./sshfs_userv_x99.sh ~/Scrypts/ &&
 cp ./umount_userv_x99.sh ~/Scrypts/ &&
 cp ./macos_install_other_app.sh ~/Scrypts/ &&
+cp ./macos_update_cleanup.sh ~/Scrypts/ &&
 
 # создаю ярлыки скриптам на рабочем столе
 ln -Ffhinsv ~/Music/RadioInternet.sh ~/Desktop/RadioInternet &&
@@ -59,6 +60,7 @@ ln -Ffhinsv ~/cloud/umount_cloud_webdav_nextcloud_apostolov_pro.sh ~/Desktop/о�
 ln -Ffhinsv ~/Scrypts/mac_czkawka_gui ~/Desktop/cli_apps/mac_czkawka_gui &&
 ln -Ffhinsv ~/Scrypts/sshfs_userv_x99.sh ~/Desktop/sshfs_userv_x99 &&
 ln -Ffhinsv ~/Scrypts/umount_userv_x99.sh ~/Desktop/umount_userv_x99 &&
+ln -Ffhinsv ~/Scrypts/macos_update_cleanup.sh ~/Desktop/umount_userv_x99 &&
 ln -Ffhinsv ~/Scrypts/macos_install_other_app.sh ~/Desktop/УСТАНОВИТЬ_ОСТАВШИЕСЯ_ПРОГРАММЫ!!! &&
 mkdir ~/Desktop/cli_apps/ &&
 #ln -Ffhinsv /usr/local/opt/w3m/bin/w3m ~/Desktop/cli_apps/w3m &&
