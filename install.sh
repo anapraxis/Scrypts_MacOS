@@ -10,7 +10,7 @@
 #cd Scrypts_MacOS &&
 
 # делаю скрипты исполняемыми
-chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh chmod_ssh_key.sh sshfs_userv_x99.sh umount_userv_x99.sh macos_install_other_app.sh macos_update_cleanup.sh img_to_pdf.sh date_to_img.sh &&
+chmod +x macos_install_app.sh mkdir_cloud.sh RadioInternet.sh dcg.sh RadioMonteCarlo.sh RadioRelax.sh screenshot_clear.sh ssh-add_userv-X99_filesremote.sh userv-X99.sh chmod_ssh_key.sh sshfs_userv_x99.sh umount_userv_x99.sh macos_install_other_app.sh macos_update_cleanup.sh img_to_pdf.sh date macos_update_cleanup.sh 3in1_img2pdf.sh &&
 
 # запускаю скрипт установки приложений
 #./macos_install_app.sh &&
@@ -45,8 +45,7 @@ cp ./sshfs_userv_x99.sh ~/Scrypts/ &&
 cp ./umount_userv_x99.sh ~/Scrypts/ &&
 cp ./macos_install_other_app.sh ~/Scrypts/ &&
 cp ./macos_update_cleanup.sh ~/Scrypts/ &&
-cp ./img_to_pdf.sh ~/Scrypts/ &&
-cp ./date_to_img.sh ~/Scrypts/ &&
+cp ./3in1_img2pdf.sh ~/Scrypts/ && 
 
 # создаю ярлыки скриптам на рабочем столе
 ln -Ffhinsv ~/Music/RadioInternet.sh ~/Desktop/RadioInternet &&
@@ -64,8 +63,7 @@ ln -Ffhinsv ~/Scrypts/sshfs_userv_x99.sh ~/Desktop/sshfs_userv_x99 &&
 ln -Ffhinsv ~/Scrypts/umount_userv_x99.sh ~/Desktop/umount_userv_x99 &&
 ln -Ffhinsv ~/Scrypts/macos_update_cleanup.sh ~/Desktop/umount_userv_x99 &&
 ln -Ffhinsv ~/Scrypts/macos_install_other_app.sh ~/Desktop/УСТАНОВИТЬ_ОСТАВШИЕСЯ_ПРОГРАММЫ!!! &&
-ln -Ffhinsv ~/Scrypts/img_to_pdf.sh ~/Desktop/img_to_pdf &&
-ln -Ffhinsv ~/Scrypts/date_to_img.sh ~/Desktop/date_to_img &&
+ln -Ffhinsv ~/Scrypts/3in1_img2pdf.sh ~/Desktop/3in1_img2pdf &&
 mkdir ~/Desktop/cli_apps/ &&
 #ln -Ffhinsv /usr/local/opt/w3m/bin/w3m ~/Desktop/cli_apps/w3m &&
 #ln -Ffhinsv /usr/local/opt/ranger/bin/ranger ~/Desktop/cli_apps/ranger &&
