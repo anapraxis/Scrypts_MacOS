@@ -34,18 +34,18 @@ cp ./RadioMonteCarlo.sh ~/Music/ &&
 cp ./RadioRelax.sh ~/Music/ &&
 
 # копирую скрипты для докера, сортировка скриншотов, ssh доступ к серверу в папку Scrypts
-mkdir ~/Scrypts && 
-cp ./dcg.sh ~/Scrypts/ &&
-cp ./macos_remove_app.sh ~/Scrypts/ &&
-cp ./screenshot_clear.sh ~/Scrypts/ &&
-cp ./ssh-add_userv-X99_filesremote.sh ~/Scrypts/ &&
-cp ./userv-X99.sh ~/Scrypts/ &&
-cp ./chmod_ssh_key.sh ~/Scrypts/ &&
-cp ./sshfs_userv_x99.sh ~/Scrypts/ &&
-cp ./umount_userv_x99.sh ~/Scrypts/ &&
-cp ./macos_install_other_app.sh ~/Scrypts/ &&
-cp ./macos_update_cleanup.sh ~/Scrypts/ &&
-cp ./3in1_img2pdf.sh ~/Scrypts/ && 
+mkdir Applications/Scrypts && 
+cp ./dcg.sh Applications/Scrypts/ &&
+cp ./macos_remove_app.sh Applications/Scrypts/ &&
+cp ./screenshot_clear.sh Applications/Scrypts/ &&
+cp ./ssh-add_userv-X99_filesremote.sh Applications/Scrypts/ &&
+cp ./userv-X99.sh Applications/Scrypts/ &&
+cp ./chmod_ssh_key.sh Applications/Scrypts/ &&
+cp ./sshfs_userv_x99.sh Applications/Scrypts/ &&
+cp ./umount_userv_x99.sh Applications/Scrypts/ &&
+cp ./macos_install_other_app.sh Applications/Scrypts/ &&
+cp ./macos_update_cleanup.sh Applications/Scrypts/ &&
+cp ./3in1_img2pdf.sh Applications/Scrypts/ && 
 
 # создаю ярлыки скриптам на рабочем столе
 ln -Ffhinsv ~/Music/RadioInternet.sh ~/Desktop/RadioInternet &&
